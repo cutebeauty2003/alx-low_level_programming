@@ -2,10 +2,12 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - main block
+ * main - determine if number is positive or negative
+ *
  * Description: Get a random number and print the number
  * and if it is positive, negative, or zero
- * Reyurn: 0
+ *
+ * Return: 0
  */
 int main(void)
 {
