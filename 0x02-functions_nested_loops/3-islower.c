@@ -2,6 +2,7 @@
 
 /**
  * _islower - print 1 or 0 depending on lower case
+ * @c: first parameter
  *
  * Description: print in lowercase
  *
