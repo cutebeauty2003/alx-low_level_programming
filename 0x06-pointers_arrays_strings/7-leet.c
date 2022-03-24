@@ -25,5 +25,6 @@ char *leet(char *s)
 		}
 		connt++;
 	}
+
 	return (s);
 }
