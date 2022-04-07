@@ -6,6 +6,7 @@
  * @s1: first string
  * @s2: second string
  * @n: amount of bytes
+ *
  * Return: pointer to a newly allocated space in memory,
  * which contains s1, followed by the first n byte of s2,
  * and null terminated
@@ -27,7 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (ls2 = 0; s2[ls2] != '\0'; ls2++)
 		;
-	
+
 	if (n > ls2)
 		n = ls2;
 
